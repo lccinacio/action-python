@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Usar a ação personalizada
-        uses: lccinacio/action-python@v1.0.0
+        uses: lccinacio/action-python@v2.0.0
         with:
           exemplo_entrada: 'Lucas Inacio Bezerra'
