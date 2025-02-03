@@ -22,6 +22,9 @@ runs:
 
     - name: Checkout Codigo
       uses: actions/checkout@v2
+      with:
+        repository: lccinacio/action-python
+        path: .
 
     - name: Checar código
       run: echo "Executando a ação..."
