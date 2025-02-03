@@ -16,7 +16,7 @@ jobs:
         id: name
         uses: lccinacio/action-python@v3.0.0
         with:
-          exemplo_entrada: 'Lucas Inacio Bezerra Teste Python Action'
+          exemplo_entrada: 'Lucas Inacio Bezerra Teste Python Action - TESTE'
 
-      - name: Mostrar nome
-        run: echo "${{ steps.name.outputs.exemplo_entrada }}"
+      # - name: Mostrar nome
+      #   run: echo "${{ steps.name.outputs.exemplo_entrada }}"
