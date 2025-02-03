@@ -13,10 +13,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Usar a ação personalizada
-        id: name
+        id: colaborador
         uses: lccinacio/action-python@v3.0.0
         with:
-          exemplo_entrada: 'Lucas Inacio Bezerra Teste Python Action - TESTE'
-
-      # - name: Mostrar nome
-      #   run: echo "${{ steps.name.outputs.exemplo_entrada }}"
+          nome: 'Lucas Bezerra'
+          sobrenome: 'Bezerra'
+          cargo: 'Engenheiro de qualidade'
