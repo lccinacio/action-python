@@ -1,0 +1,18 @@
+name: Executar minha action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  python-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v2
+
+      - name: Usar a ação personalizada
+        uses: lccinacio/action-python@v1.0.0
+        with:
+          exemplo_entrada: 'Lucas Inacio Bezerra
