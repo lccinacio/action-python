@@ -27,7 +27,7 @@ runs:
         path: .
 
     - name: Checar código
-      run: echo "Executando a ação..."
+      run: echo "Verificando dados do usúario ..."
       shell: bash
 
     - name: Executar script Python
