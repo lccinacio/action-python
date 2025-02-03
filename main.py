@@ -6,7 +6,7 @@ def main():
     nome = os.getenv('NOME')
     sobrenome = os.getenv('SOBRENOME')
     cargo  = os.getenv('SOBRENOME')
-    return f'Nome: {nome}, Sobrenome: {sobrenome}, cargo: {cargo}'
+    return print(f'Nome: {nome}, Sobrenome: {sobrenome}, cargo: {cargo}')
 
 if __name__ == "__main__":
     main()
