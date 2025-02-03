@@ -14,7 +14,7 @@ jobs:
 
       - name: Usar a ação personalizada
         id: colaborador
-        uses: lccinacio/action-python@v3.0.0
+        uses: lccinacio/action-python@v4.0.0
         with:
           nome: 'Lucas Bezerra'
           sobrenome: 'Bezerra'
