@@ -25,7 +25,7 @@ runs:
 
     - name: Executar script Python
       run: |
-        python main.py ${{ inputs.nome }}
+        python main.py ${{ inputs.nome }} && ${{ inputs.sobrenome }} && ${{ inputs.cargo }}
       shell: bash
       env:
         NOME: ${{ inputs.nome }}
