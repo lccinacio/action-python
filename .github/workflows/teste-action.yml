@@ -15,4 +15,4 @@ jobs:
       - name: Usar a ação personalizada
         uses: lccinacio/action-python@v3.0.0
         with:
-          exemplo_entrada: 'TESTANDOPYTHONPARAACTIONSSSSS'
+          exemplo_entrada: 'LUCASINACIOBEZERRATESTPYTHNON'
