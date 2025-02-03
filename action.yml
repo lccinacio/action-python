@@ -18,7 +18,3 @@ runs:
       shell: bash
       env:
         NOME: ${{ inputs.exemplo_entrada }}
-
-    - name: Printando nome
-      runs: |
-        echo "$NOME"
