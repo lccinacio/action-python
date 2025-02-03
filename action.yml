@@ -16,5 +16,3 @@ runs:
       run: |
         python main.py ${{ inputs.exemplo_entrada }}
       shell: bash
-      env:
-        NOME: ${{ inputs.exemplo_entrada }}
