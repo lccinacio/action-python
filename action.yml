@@ -10,6 +10,7 @@ runs:
   steps:
     - name: Checar código
       run: echo "Executando a ação..."
+      shell: bash
 
     - name: Executar script Python
       run: |
