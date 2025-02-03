@@ -16,6 +16,6 @@ jobs:
         id: colaborador
         uses: lccinacio/action-python@v4.0.0
         with:
-          nome: 'Lucas Bezerra'
+          nome: 'Lucas'
           sobrenome: 'Bezerra'
           cargo: 'Engenheiro de qualidade'
