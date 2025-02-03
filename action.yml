@@ -4,7 +4,7 @@ inputs:
   exemplo_entrada:
     description: 'Um exemplo de entrada para o script'
     required: true
-    default: 'Valor padrão'
+    default: 'lc'
 runs:
   using: 'composite'
   steps:
