@@ -20,8 +20,8 @@ runs:
   using: 'composite'
   steps:
 
-    - name: Checkout Codigo
-      uses: actions/checkout@v2
+    # - name: Checkout Codigo
+    #   uses: actions/checkout@v2
 
     - name: Checar código
       run: echo "Executando a ação..."
