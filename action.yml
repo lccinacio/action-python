@@ -1,0 +1,16 @@
+name: 'Minha Action em Python'
+description: 'Ação que executa um script Python'
+inputs:
+  exemplo_entrada:
+    description: 'Um exemplo de entrada para o script'
+    required: true
+    default: 'Valor padrão'
+runs:
+  using: 'composite'
+  steps:
+    - name: Checar código
+      run: echo "Executando a ação..."
+
+    - name: Executar script Python
+      run: |
+        python main.py ${{ inputs.exemplo_entrada }}
