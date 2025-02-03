@@ -12,7 +12,7 @@ jobs:
 
       - name: Usar a ação personalizada
         id: colaborador
-        uses: lccinacio/action-python@v7.0.0
+        uses: lccinacio/action-python@v8.0.0
         with:
           nome: 'Lucas'
           sobrenome: 'Bezerra'
