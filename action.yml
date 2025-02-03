@@ -4,7 +4,7 @@ inputs:
   exemplo_entrada:
     description: 'Um exemplo de entrada para o script'
     required: true
-    default: 'lc'
+    default: 'Nome do usuário'
 runs:
   using: 'composite'
   steps:
@@ -16,3 +16,5 @@ runs:
       run: |
         python main.py ${{ inputs.exemplo_entrada }}
       shell: bash
+      env:
+        NOME: ${{ inputs.exemplo_entrada }}
