@@ -9,4 +9,4 @@ def main():
     return f'Nome: {nome}, Sobrenome: {sobrenome}, cargo: {cargo}'
 
 if __name__ == "__main__":
-    main()
+    print(main())
