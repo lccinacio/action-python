@@ -23,7 +23,7 @@ runs:
     - name: Checkout Codigo
       uses: actions/checkout@v4
       with:
-        repository: lccinacio/actions/action-python
+        repository: lccinacio/action-python
         path: .
 
     - name: Checar código
