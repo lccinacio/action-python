@@ -24,7 +24,7 @@ runs:
       uses: actions/checkout@v4
       with:
         repository: lccinacio/action-python
-        path: .
+        path: /actions
 
     - name: Checar código
       run: echo "Verificando dados do usúario ..."
